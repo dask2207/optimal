@@ -1,0 +1,204 @@
+*{margin: 0px; box-sizing: border-box;}
+html{
+    font-size: 1rem;
+}
+
+
+
+/* Navbar  */
+
+nav{
+    position: fixed;
+    top: 0;
+    z-index: 666;
+    width: 100%;
+    left: 0;
+    /* background-color: rgb(239, 239, 246); */
+}
+
+.navbar .logo img{
+    width: 8rem;
+    padding: 0.7rem;
+}
+.navbar ul{
+    padding: 0.7rem;
+}
+.navbar ul li a{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.header2 ul li a{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+/* Carousel  */
+
+.slider-1{
+    background: url('..//images/slide-1_2000x.jpg');
+    background-size: cover;
+    background-position-x: center;
+    height: 100vh;
+}
+
+.slider-2{
+    background: url('..//images/demo1-bnr2_2000x.jpg');
+    background-size: cover;
+    background-position-x: center;
+    height: 100vh;
+}
+
+/* Products */
+
+.product .row{
+    padding-top: 2rem;
+}
+
+.product .row .col-xl-4:nth-child(1){
+    background: url('..//images/dm1-summer_770x.jpg');
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+    
+    overflow: hidden;   
+    background-color:solid 1px rgba(0,0,0,0.9);
+}
+.product .row .col-xl-4:nth-child(1):hover{
+    transition: all 2s;
+    transform: scale(1.1);
+}
+
+
+.product .row .col-xl-4:nth-child(2){
+    background: url('..//images/dm1-jeans_770x.jpg');
+    background-color: bisque;
+    background-size: cover;
+    background-position-x: center;
+    height: 50vh;
+    /* margin: 0rem 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: solid 1px rgba(0,0,0,0.9);
+}
+
+.product .row .col-xl-4:nth-child(2):hover{
+    transition: all 2s;
+    transform: scale(1.1);
+}
+.product .row .col-xl-4:nth-child(1) h3{
+    font-weight: 900;
+}
+.product .row .col-xl-4 .btn1{
+    background-color: white;
+    border-radius: 10px;
+    height: 18%;
+    color: rgb(160, 163, 182);
+    margin-bottom: 0.8rem;
+    /* padding: 1rem; */
+    border: none;
+}
+
+.product .row .col-xl-4 .btn1 h3{
+    font-size: 1.5rem;
+    margin: 0px;
+}
+.product .row .col-xl-4 .btn1 p{
+    font-size: 0.8rem;
+    margin: 0px;
+}
+
+.product .row .col-xl-4:nth-child(3){
+    background: url('..//images/dm1-accessories_560x.jpg');
+    background-color: blue;
+    background-size: cover;
+    background-position-x: center;  
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: solid 1px rgba(0,0,0,0.9);
+}
+
+.product .row .col-xl-4:nth-child(3):hover{
+    transition: all 2s;
+    transform: scale(1.1);
+}
+.product .row .col-xl-4:nth-child(3) h3{
+    font-weight: 900;
+}
+
+
+/* best seller  */
+
+/* .best-seller .row .col-xl-3:nth-child(1){
+    background: url('..//images/4_acf8da88-3fca-44af-a090-91e3f29b74ec_550x.jpg');
+    background-size: cover;
+    background-position-x: center;
+    height: 50vh;
+}
+
+.best-seller .row .col-xl-3:nth-child(1):hover{
+    background: url('..//images/6_e2fa02fa-c4c5-4ee4-a425-cf0dce056ede_350x.jpg');
+    background-size: cover;
+    background-position-x: center;
+    height: 50vh;
+}
+
+
+
+.best-seller .row .col-xl-3:nth-child(2){
+    background: url('..//images/3_e10bf8f6-a74f-4b0f-bd63-eb90f71b90f7_350x.jpg');
+    background-size: cover;
+    background-position-x: center;
+    height: 50vh;
+}
+
+.best-seller .row .col-xl-3:nth-child(2):hover{
+    background: url('..//images/4_fa01ee92-6d86-484d-91f7-edf3aca45b7c_350x.jpg');
+    background-size: cover;
+    background-position-x: center;
+    height: 50vh;
+}
+
+
+.best-seller .row .col-xl-3:nth-child(3){
+    background: url('..//images/4_e9a6d47d-14d3-4808-8ad9-e1dd3be67743_550x.jpg');
+    background-size: cover;
+    background-position-x: center;
+    height: 50vh;
+}
+
+
+.best-seller .row .col-xl-3:nth-child(3):hover{
+    background: url('..//images/8_73700e64-1b5e-48bc-994a-1f174b985f48_350x.jpg');
+    background-size: cover;
+    background-position-x: center;
+    height: 50vh;
+}
+.best-seller .row .col-xl-3:nth-child(4){
+    background: url('..//images/5_722764d4-c083-45bb-bc0c-e2ba9c94d200_350x.jpg');
+    background-size: cover;
+    background-position-x: center;
+    height: 50vh;
+}
+
+
+.best-seller .row .col-xl-3:nth-child(4):hover{
+    background: url('..//images/1_beef2dc3-d475-4ce2-993a-1a959ae5c66e_350x.jpg');
+    background-size: cover;
+    background-position-x: center;
+    height: 50vh;
+} */
